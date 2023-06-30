@@ -1,6 +1,4 @@
 import { db } from "@/db";
-import { log } from "console";
-import { NextApiRequest, NextApiResponse } from "next";
 import { NextRequest, NextResponse } from "next/server";
 
 export async function POST(req: NextRequest) {
