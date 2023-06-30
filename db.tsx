@@ -7,7 +7,6 @@ export const db = {
 };
 
 async function initialize() {
-
     if (!db.connection) {
         db.connection = await mysql.createConnection({
             host: "localhost",
@@ -16,7 +15,6 @@ async function initialize() {
             password: "",
             database: "spp_kartono"
         });
-
     } 
 }
 

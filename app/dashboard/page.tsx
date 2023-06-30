@@ -7,7 +7,8 @@ import {
     Title
 } from "@tremor/react";
 
-export default function DashboardPage() {
+
+export default function Page() {
     return (
         <main className="flex justify-center items-center h-screen">
             <div>
